@@ -1,0 +1,25 @@
+# java stuff
+*.class
+
+# C# stuff
+*.exe
+
+# mac stuff
+.DS_Store
+
+# node stuff
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+node_modules
+

@@ -1,0 +1,17 @@
+{
+  "name": "jarp",
+  "version": "0.0.1",
+  "description": "A Java to C# translator",
+  "author": {
+    "name": "Chris Gordon Williams",
+    "email": "cgw239@nyu.edu",
+    "url": "chrisgw.com"
+  },
+  "license": "MIT",
+  "main": "jarp.js",
+  "dependencies": {
+    "optimist": "~0.6.0"
+  },
+  "bin": "./jarp.js"
+}
+
