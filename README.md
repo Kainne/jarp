@@ -1,7 +1,12 @@
 # Jarp
 A Java to C# translator written in Node.js
 
+### Installation:
+```
+npm install -g jarp
+```
+
 ### Usage:
 ```
-./jarp.js -f HelloWorld.java > HelloWorld.cs
+jarp -f HelloWorld.java > HelloWorld.cs
 ```
