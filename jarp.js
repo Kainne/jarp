@@ -17,8 +17,9 @@ var rd = readline.createInterface({
 });
 
 var regen = function(word) {
-  var nonalphanum = '([^\w\d])';
+  var nonalphanum = '([^\w\d]|^)';
   word = word.replace(/\./, '\.');
+  word = word.replace(/\*/, '\*');
   return new RegExp(nonalphanum + word + nonalphanum);
 };
 
@@ -30,6 +31,8 @@ var jarp = function(line) {
   line = swap(line, 'main', 'Main');
   line = swap(line, 'String', 'string');
   line = swap(line, 'out.println', 'Console.WriteLine');
+  line = swap(line, 'import', 'using');
+  line = swap(line, 'java.util.*', 'System');
   return line;
 };
 

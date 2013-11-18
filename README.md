@@ -10,3 +10,8 @@ npm install -g jarp
 ```
 jarp -f HelloWorld.java > HelloWorld.cs
 ```
+
+### Todo:
+1. Implement Scanner in C#
+2. Get Echo.java to translate correctly
+
