@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 var argv = require('optimist')
-  .usage('Translates Java to C#.\nUsage: $0')
+  .usage('Translates Java to C#')
   .demand('f')
   .alias('f', 'file')
   .describe('f', 'File to translate')
